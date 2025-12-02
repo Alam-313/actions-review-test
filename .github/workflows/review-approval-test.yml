@@ -8,7 +8,7 @@ jobs:
   test-approval:
     if: >
       github.event.review.state == 'approved' &&
-      github.event.review.user.id == 97113157
+      github.event.review.user.id == 131647871
     runs-on: ubuntu-latest
 
     steps:
